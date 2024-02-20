@@ -63,6 +63,7 @@ def main(args):
         fp16=args.fp16,
         load_best_model_at_end=True,
         metric_for_best_model="f1",
+        evaluation_strategy="steps", eval_steps=500,
     )
 
     # Setup logging
