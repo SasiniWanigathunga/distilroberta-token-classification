@@ -33,7 +33,7 @@ def parse_args():
     parser.add_argument("--pad_to_max_length", type=bool, default=False)
     parser.add_argument("--output_dir", type=str, default="/opt/ml/model")
     parser.add_argument("--use_auth_token", type=str, default="")
-    parser.add_argument("--do_train", type=str, default="")
+    parser.add_argument("--do_train", type=str, default="True")
     parser.add_argument("--do_eval", type=str, default="")
     parser.add_argument("--do_test", type=str, default="")
     parser.add_argument("--extra_model_name", type=str, default="")
